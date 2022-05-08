@@ -9,3 +9,13 @@ menu = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
+
+product = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="🛍Maxsulotlar"),
+            KeyboardButton(text="ℹQo'llanma"),
+        ],
+    ],
+    resize_keyboard=True
+)
