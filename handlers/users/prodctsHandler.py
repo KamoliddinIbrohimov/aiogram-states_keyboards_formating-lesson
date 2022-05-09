@@ -22,6 +22,7 @@ async def buy_courses(call: CallbackQuery):
     await call.message.answer("Kursni tanlang", reply_markup=coursesMenu)
     await call.answer(cache_time=60)
     await call.message.delete()
+    a\
 
 @dp.callback_query_handler(text="books")
 async def buy_books(call: CallbackQuery):
@@ -64,3 +65,5 @@ async def buying_book(call: CallbackQuery, callback_data: dict):
 async def back_button(call: CallbackQuery):
     await call.message.edit_reply_markup(reply_markup=categoryMenu)
     await call.answer()
+
+
